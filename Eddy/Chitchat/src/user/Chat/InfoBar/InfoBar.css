@@ -1,0 +1,49 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(203, 3, 243);
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+}
+
+.infoBar_leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+}
+
+.infoBar_rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.onlineIcon {
+  margin-right: 5%;
+}
+
+.justClose {
+  margin-right: 30px;
+}
+
+.report_button {
+  height: 100%;
+  margin-right: 20px;
+  background: rgb(250, 210, 255);
+  border: 5px solid rgb(250, 210, 255);
+  border-radius: 30px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.report_button:hover{
+  background: rgb(203, 130, 212);
+  border: 5px solid rgb(203, 130, 212);
+  cursor: pointer;
+}

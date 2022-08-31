@@ -1,0 +1,135 @@
+ 
+.mission_card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-height: 50vh;
+  width: 90vh;
+  border: 10px solid rgb(248, 170, 255);
+}
+
+.mission_title{
+  font-weight: 550;
+  color: rgb(192, 8, 177);
+}
+
+.mission_element{
+height: 32vh;
+width: 80%;
+border: 10px solid rgb(22, 170, 207);
+}
+
+.mission_column{
+height: 100vh;
+}
+.mission_column[type=colm_35]{
+border-right: 10px solid rgb(250, 47, 233);
+width: 35%;
+float: left;
+
+}
+.mission_column[type=colm_65]{
+padding-left: 0px;
+width: 55%;
+float: right;
+
+}
+/* Clear floats after the columns */
+.mission_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mission_table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+border: 1px solid #ddd;
+}
+
+.mission_th, td {
+text-align: left;
+width: 33vh;
+padding: 16px;
+border-bottom: 1px solid #ddd;
+
+}
+
+.mission_tr:nth-child(even) {
+background-color: rgb(249, 253, 209, 0.5);
+}
+
+text_title[type=mission]{
+  display: flex;
+  height:186px;
+  padding: 50px 0px 0px 50px;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+  color: purple;
+}
+
+.mission_row{
+display: flex;
+height:186px;
+width: 75vh;
+padding: 50px;
+padding-left: 20px;
+text-align: center;
+font-size: 60px;
+font-weight: bold;
+color: purple;
+padding-bottom: 30px;
+padding-right: 30px;
+}
+
+text_title1{
+  text-align: center;
+font-size: 60px;
+font-weight: bold;
+color: purple;
+padding-left: 80px;
+}
+
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_circle {
+  position: absolute;
+  width:22px;
+  height:22px;
+  background-color: green;
+  border-radius:11px;
+  left:0;
+  top:0;
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:#fff;
+    left:11px;
+    top:6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:3px;
+    height:3px;
+    background-color:#fff;
+    left:8px;
+    top:12px;
+}
+
+.mission_icon{
+  height: 10vh;
+  max-width: 100%;
+  max-height: 100%;
+}

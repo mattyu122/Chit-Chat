@@ -1,0 +1,31 @@
+.chatInput_form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+  min-height: 30vh;
+}
+
+.chatInput_input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.chatInput_sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgb(203, 3, 243);
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+  font-size: 25px;
+}
